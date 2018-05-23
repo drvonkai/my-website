@@ -4,15 +4,54 @@
   <title>Sunshine Valley Clothing Official</title>
 <link rel="StyleSheet" href="CSS.web/Style_Sheet.css">
 <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 18px 24px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: #4CAF50;
+}
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 </style>
+</head>
 <body>
-
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Menpage.html">Men</a></li>
+    <li><a href="Womenpage.html">Women</a></li>
+    <li><a href="Kidspage.html">Kids</a></li>
+    <li style="float:right"><a class="active" href="#about">About</a></li>
+  </ul>
+<!--finish menu bar-->
 <h1 align="center">Sun Valley Clothing</h1>
 <div id="media">
 <img src="https://cdn.stocksnap.io/img-thumbs/960w/IMPT2ZC806.jpg" alt= "Sun Valley" width="2042" height="642" style="width:70%;"/>
 </div>
+</body>
+
+
+</html>
