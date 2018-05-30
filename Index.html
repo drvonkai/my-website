@@ -3,54 +3,113 @@
 <head>
   <title>Sunshine Valley Clothing Official</title>
 <link rel="StyleSheet" href="CSS.web/Style_Sheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: blue;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: left;
-    padding: 18px 24px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: black;
-}
-
-.active {
-    background-color: #4CAF50;
-}
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #303030;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #303030;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 11px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 4px 8px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #6dba6a;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: green;
+}
+
+media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+
 </style>
 </head>
 <body>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="Menpage.html">Men</a></li>
-    <li><a href="Womenpage.html">Women</a></li>
-    <li><a href="Kidspage.html">Kids</a></li>
-    <li style="float:right"><a class="active" href="#about">About</a></li>
-  </ul>
-<!--finish menu bar-->
-<h1 align="center">Sun Valley Clothing</h1>
-<div id="media">
-<img src="https://cdn.stocksnap.io/img-thumbs/960w/IMPT2ZC806.jpg" alt= "Sun Valley" width="2042" height="642" style="width:70%;"/>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">Men</a>
+  <a href="#contact">Women</a>
+  <a href="#contact">Kids</a>
+  <a href="#contact">Sale</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
 </div>
+
+
+<!--finish menu bar-->
+<h1 align="center">Sun Valley Clothing.</h1>
+<div id="media">
+<img src="https://cdn.stocksnap.io/img-thumbs/960w/NY963ZH6T2.jpg" alt= "Sun Valley" width="2020" height="630" style="width:70%;"/>
+</div>
+
+<div class="main">
+  <ul style= color:#2d2d2d;""font-family :verdana;"><b>HERE TO HELP</b></ul>
+<ul class="sansserif">Where's my order?</ul>
+<ul class="sansserif">Delivery & collection</ul>
+<ul class="sansserif">Return & refunds</ul>
+<ul class="sansserif">Help & contact us</ul>
+<ul class="sansserif">Sitemap</ul>
+</div>
+
+<div class="main">
+  <ul style= color:#2d2d2d;""font-family :verdana;"><b>WHY</b></ul>
+
 </body>
 
 
