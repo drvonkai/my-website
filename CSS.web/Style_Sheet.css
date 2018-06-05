@@ -10,3 +10,25 @@ h3 {
 body {
   background-color:  color:#f9f9f9
 }
+
+
+.sidenav {
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    top: 105px;
+    left: 20px;
+    background: #f9f9f9;
+    overflow-x: hidden;
+    padding: 330px 0;
+}
+.sidenav2 {
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    top: 105px;
+    right: 20px;
+    background: #f9f9f9;
+    overflow-x: hidden;
+    padding: 330px 0;
+}
