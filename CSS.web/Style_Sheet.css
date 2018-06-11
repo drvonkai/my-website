@@ -11,37 +11,25 @@ body {
   background-color:  color:#f9f9f9
 }
 
-<<<<<<< HEAD
 
 .sidenav {
     width: 250px;
     position: absolute;
     z-index: 1;
     top: 105px;
-    left: 20px;
+    left: -12px;
     background: #f9f9f9;
     overflow-x: hidden;
     padding: 330px 0;
 }
+
 .sidenav2 {
     width: 250px;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 105px;
-    right: 20px;
+    right:-10px;
     background: #f9f9f9;
     overflow-x: hidden;
     padding: 330px 0;
-=======
-.sidenav {
-    width: 130px;
-    height:630px;
-    position: absolute;
-    z-index: 1;
-    top: 130px;
-    left: 10px;
-    background: #f9f9f9;
-    overflow-x: hidden;
-    padding: 8px 0;
->>>>>>> 4898387a8bc6f06bdcec18caa191a71ffa5cf6c3
 }
