@@ -10,3 +10,27 @@
     overflow-x: hidden;
     padding: 8px 0;
 }
+
+.sidenav2 {
+    width: 1700px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 1000px;
+    left: -460px;
+    background: #edebde;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav3 {
+    width: 1700px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    top: 1200px;
+    left: -460px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
