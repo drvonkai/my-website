@@ -18,7 +18,7 @@
     z-index: 1;
     top: 1000px;
     left: -460px;
-    background:#eee ;
+    background:#ef6047;
     overflow-x: hidden;
     padding: 8px 0;
 }
@@ -39,3 +39,17 @@ ul.relative {
 position: relative;
 top: 5px;
 left: 5px;
+
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 150px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+
+.fa-instagram {
+background: #125688;
+color: black;
+}
