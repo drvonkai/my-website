@@ -45,8 +45,3 @@ body {
     overflow-x: hidden;
     padding: 8px 0;
 }
-
-ul.relative {
-position: relative;
-top: 5px;
-left: 5px;
