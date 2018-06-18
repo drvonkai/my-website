@@ -11,7 +11,6 @@ body {
   background-color:  color:#f9f9f9
 }
 
-
 .sidenav {
     width: 250px;
     position: absolute;
@@ -44,4 +43,17 @@ body {
     background: #fcefe0;
     overflow-x: hidden;
     padding: 8px 0;
+}
+
+.footer {
+   z-index:1000;
+   position: fixed;
+   left: 0;
+   height: 84;
+   bottom: 0;
+   width: 100%;
+   opacity: 100;
+   background-color: #3779e5;
+   color: #262626;
+   text-align: center;
 }
