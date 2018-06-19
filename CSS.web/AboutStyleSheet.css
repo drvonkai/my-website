@@ -1,4 +1,6 @@
 
+
+
 .sidenav {
     width: 900px;
     height: 200px;
@@ -14,7 +16,7 @@
 
 .sidenav3 {
     width: 1700px;
-    height: 292px;
+    height: 272px;
     position: absolute;
     z-index: 1;
     top: 1000px;
@@ -22,6 +24,12 @@
     background: #fcefe0;
     overflow-x: hidden;
     padding: 8px 0;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
 }
 
 .footer {
