@@ -6,33 +6,35 @@
     z-index: 1;
     top: 620px;
     left: -160px;
-    background: #fceede;
+    background: #efefef;
     overflow-x: hidden;
     padding: 8px 0;
 }
 
-.sidenav2 {
+
+.sidenav3 {
     width: 1700px;
-    height: 200px;
+    height: 292px;
     position: absolute;
     z-index: 1;
     top: 1000px;
     left: -460px;
-    background:#ef6047;
+    background: #fcefe0;
     overflow-x: hidden;
     padding: 8px 0;
 }
 
-.sidenav3 {
-    width: 1700px;
-    height: 300px;
-    position: absolute;
-    z-index: 1;
-    top: 1200px;
-    left: -460px;
-    background: #fcefe0;
-    overflow-x: hidden;
-    padding: 8px 0;
+.footer {
+   z-index:1000;
+   position: fixed;
+   left: 0;
+   height: 84;
+   bottom: 0;
+   width: 100%;
+   opacity: 100;
+   background-color: #4889f2;
+   color: #262626;
+   text-align: center;
 }
 
 ul.relative {
