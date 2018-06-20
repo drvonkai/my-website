@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Log In | Sun Valley Clothing Official</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+html,body {
+  width: 100%;
+  height: 112%;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+  }
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fffaf9;
@@ -62,7 +70,7 @@ a {
 
 /* Set a grey background color and center the text of the "sign in" section */
 .login {
-    background-color: #fffaf9;
+    background-color: #f41313;
     text-align: center;
 }
 </style>
@@ -72,7 +80,6 @@ a {
 <form action="/action_page.php">
   <div class="container">
     <h1>Log In</h1>
-    <p>Log In.</p>
     <hr>
 
     <label for="email"><b>Email</b></label>
@@ -82,13 +89,14 @@ a {
     <input type="password" placeholder="Enter Password" name="psw" required>
 
     <hr>
-<a href="#">Forgot password?</a></p>
+<a href="#"><abbr title="Forgot password" class="initialism">Forgot password?</a></p>
 
     <button type="submit" class="registerbtn">Log In</button>
+    <abbr title="Log In" class="initialism">
   </div>
 
-  <div class="container signin">
-    <a href="#">Sign Up</a>
+  <div class="container signup">
+    <P>Don't have an account?<a href="#"><abbr title="Sign Up" class="initialism"><a href="SignUpPage.html">Sign Up</a></a>.</p>
   </div>
 </form>
 
